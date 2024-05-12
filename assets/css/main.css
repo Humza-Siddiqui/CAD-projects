@@ -1,3 +1,4 @@
+
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
@@ -148,10 +149,11 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
+		text-align: justify;
+		font-family:  arial,  sans-serif
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: 2;
 	}
 
 	a {
@@ -172,16 +174,20 @@ input, select, textarea {
 	}
 
 	em, i {
-		font-style: italic;
+		font-style: Arial, sans-serif;
 	}
 
 	p {
 		text-align: justify;
+		font-family:  Arial, sans-serif;
+		font-weight: 300;
+		font-size: 1rem;
+		line-height: 2;
 		margin: 0 0 2rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: Arial, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -238,14 +244,14 @@ input, select, textarea {
 
 	blockquote {
 		border-left: solid 4px;
-		font-style: italic;
+		font-style: Arial, sans-serif;
 		margin: 0 0 2rem 0;
 		padding: 0.5rem 0 0.5rem 2rem;
 	}
 
 	code {
 		border: solid 2px;
-		font-family: "Courier New", monospace;
+		font-family: Arial, sans-serif;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
@@ -253,7 +259,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: Arial, sans-serif;
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
 	}
